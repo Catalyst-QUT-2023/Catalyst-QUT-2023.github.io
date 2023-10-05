@@ -5,4 +5,9 @@ the url preview feature implemented in
 
 https://tracker.moodle.org/browse/MDL-70933
 
+Fixtures:
+
+https://catalyst-qut-2023.github.io/01-no-metadata.html
+
+https://catalyst-qut-2023.github.io/02-basic-metadata.html
 
