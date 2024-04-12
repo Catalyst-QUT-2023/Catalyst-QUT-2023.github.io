@@ -19,4 +19,4 @@ https://catalyst-qut-2023.github.io/05-no-title-h1-and-h2.html
 
 https://catalyst-qut-2023.github.io/06-no-title-only-h2.html
 
-https://catalyst-qut-2023.github.io/malicious.html
+https://catalyst-qut-2023.github.io/07-malicious.html
