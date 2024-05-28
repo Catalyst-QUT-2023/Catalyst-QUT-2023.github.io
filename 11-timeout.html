@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeout Page</title>
+    <script type="text/javascript">
+        function timeoutRedirect() {
+            setTimeout(function() {
+                window.location.href = "https://www.example.com";
+            }, 5000);
+        }
+    </script>
+</head>
+<body onload="timeoutRedirect()">
+    <h1>Timeout Page</h1>
+    <p>You will be redirected in 5 seconds...</p>
+</body>
+</html>
