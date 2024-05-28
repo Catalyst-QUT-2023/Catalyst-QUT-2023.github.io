@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delayed Load Page</title>
+    <style>
+        #content {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function showContent() {
+            setTimeout(function() {
+                document.getElementById('content').style.display = 'block';
+            }, 5000);
+        }
+    </script>
+</head>
+<body onload="showContent()">
+    <div id="content">
+        <h1>Welcome to the Delayed Load Page</h1>
+        <p>This content was loaded after a delay of 5 seconds.</p>
+    </div>
+</body>
+</html>
